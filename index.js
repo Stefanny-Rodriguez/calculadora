@@ -3,6 +3,12 @@ function sumar(num1, num2) {
   return num1 + num2;
 }
 
+//Funcion para multiplicar dos numeros
+function multiplicar(a, b) {
+  return a * b;
+}
+
+
 // Función principal del programa
 function calculadora() {
   var opcion = prompt(
