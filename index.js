@@ -19,6 +19,15 @@ function dividir(a, b) {
   return a / b;
 }
 
+//Funcion factorial
+function factorial(n) {
+  if (n < 0) return "Error: factorial no definido";
+  let res = 1;
+  for (let i = 1; i <= n; i++) res *= i;
+  return res;
+}
+
+
 
 // Función principal del programa
 function calculadora() {
