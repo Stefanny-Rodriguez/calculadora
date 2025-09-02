@@ -32,6 +32,12 @@ function exponente(base, exp) {
   return Math.pow(base, exp);
 }
 
+//Funcion raiz cuadrada
+function raizCuadrada(n) {
+  if (n < 0) return "Error: raíz no definida para negativos";
+  return Math.sqrt(n);
+}
+
 
 
 // Función principal del programa
