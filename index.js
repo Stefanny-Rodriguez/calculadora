@@ -13,6 +13,12 @@ function multiplicar(a, b) {
   return a * b;
 }
 
+//Funcion para dividir dos numeros
+function dividir(a, b) {
+  if (b === 0) return "Error: división por cero";
+  return a / b;
+}
+
 
 // Función principal del programa
 function calculadora() {
