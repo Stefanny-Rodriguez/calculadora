@@ -3,6 +3,11 @@ function sumar(num1, num2) {
   return num1 + num2;
 }
 
+//Funcion para restar dos numeros
+function restar(a, b) {
+  return a - b;
+}
+
 //Funcion para multiplicar dos numeros
 function multiplicar(a, b) {
   return a * b;
